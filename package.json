@@ -1,36 +1,47 @@
 {
   "name": "custom-components-tutorial",
-  "description": "Get Started with Custom Components for Qlik Sense.",
   "version": "0.1.0",
+  "description": "Get Started with Custom Components for Qlik Sense.",
+  "keywords": [
+    "qlik",
+    "qlik-sense",
+    "qliksense",
+    "widgets",
+    "custom-components",
+    "components",
+    "visualization"
+  ],
   "homepage": "https://github.com/stefanwalther/custom-components-tutorial",
-  "author": " ()",
-  "repository": "stefanwalther/custom-components-tutorial",
   "bugs": {
     "url": "https://github.com/stefanwalther/custom-components-tutorial/issues"
   },
   "license": "MIT",
+  "author": "Stefan Walther (https://github.com/stefanwalther)",
   "files": [
-    "index.js"
+    "src/"
   ],
-  "main": "index.js",
-  "engines": {
-    "node": ">=0.10.0"
-  },
+  "repository": "stefanwalther/custom-components-tutorial",
   "scripts": {
-    "test": "mocha"
   },
   "dependencies": {},
   "devDependencies": {
-    "gulp-format-md": "*",
+    "gulp-format-md": "^0.1.10",
     "mocha": "*"
   },
-  "keywords": [],
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "private": true,
   "verb": {
-    "layout": "default",
-    "plugins": ["gulp-format-md"],
+    "layout": "empty",
+    "plugins": [
+      "gulp-format-md"
+    ],
     "related": {
       "list": []
     },
-    "reflinks": ["verb"]
+    "reflinks": [
+      "verb"
+    ]
   }
 }
