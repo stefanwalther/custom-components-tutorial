@@ -4,8 +4,6 @@ title: "Recipes"
 
 Some recipes when working with the Custom Component concept:
 
-<!-- toc -->
-
 ## Using AngularJS Services
 
 [AngularJS services](https://docs.angularjs.org/api/ng/service) should be referenced using the following pattern:
