@@ -1,3 +1,11 @@
 ccs-boilerplate/ccs-boilerplate.js;
 ccs-boilerplate/ccs-boilerplate.qext;
-ccs-hello-world/ccs-hello-world.js
+ccs-hello-world/ccs-hello-world.js;
+ccs-hello-world/ccs-hello-world.qext;
+ccs-list/ccs-list.js;
+ccs-list/ccs-list.qext;
+ccs-nested/ccs-nested.js;
+ccs-nested/ccs-nested.qext;
+ccs-version-info/ccs-version-info.js;
+ccs-version-info/ccs-version-info.qext;
+ccs-version-info/template.ng.html

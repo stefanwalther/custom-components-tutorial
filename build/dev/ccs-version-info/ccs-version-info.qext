@@ -1,0 +1,7 @@
+{
+  "name": "ccs-version-info",
+  "description": "Example how to use Qlik's Capability APIs.",
+  "type": "component",
+  "version": "0.1.0",
+  "author": "Stefan Walther"
+}

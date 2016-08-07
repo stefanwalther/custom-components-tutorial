@@ -41,7 +41,7 @@ define( [
 
 ## Default Values for Scope Properties
 
-Default values for scope properties should be put into the controller as follows:
+Default values for scope properties should be put into the controller as follows (if they are not intended to be exposed to the property panel):
 
 ```js
 define( [], function () {

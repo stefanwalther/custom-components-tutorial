@@ -1,0 +1,7 @@
+{
+  "name": "ccs-hello-world",
+  "description": "The very exciting Hello World component.",
+  "type": "component",
+  "version": "0.1.0",
+  "author": "Stefan Walther"
+}
