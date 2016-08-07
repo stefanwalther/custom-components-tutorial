@@ -1,0 +1,7 @@
+{
+  "name": "ccs-list",
+  "description": "Example of a nested component.",
+  "type": "component",
+  "version": "0.1.0",
+  "author": "Stefan Walther"
+}

@@ -54,18 +54,18 @@ The purpose of the JavaScript file is to return the signature of an AngularJS di
 Example:  
 ```js
 define( [], function () {
-  'use strict';
-
-  return {
-    name: "ccsBoilerplate",
-    restrict: 'E',
-    replace: true,
-    link: function ( scope, element, attrs ) {
-      element.html( 'OK, we have a custom component.' );
-      console.log( 'OK, we have a custom component.' );
-    }
-  };
+    'use strict';
+    
+    return {
+        name: "ccsBoilerplate",
+        restrict: 'E',
+        link: function ( scope, element, attrs ) {
+            element.html( 'OK, we have a custom component.' );
+            console.log( 'OK, we have a custom component.' );
+        }
+    };
 } );
+
 ```
 
 {{hint}}
