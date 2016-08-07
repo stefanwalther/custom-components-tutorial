@@ -7,8 +7,9 @@
 - [x] Custom Component API?
 - [x] Hello World Component
 - [ ] A simple alert component
-- [ ] Nested components
+- [x] Nested components
 - [ ] Using Capability APIs
+- [ ] Using External Resources
 - Don'ts
 - Limitations
 - [ ] Recipes
