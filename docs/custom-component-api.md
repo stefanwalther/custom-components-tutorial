@@ -4,10 +4,10 @@ title: "The Custom Component API"
 
 The Custom Component API follows the same principles as when developing a Visualization Extension.
 
-If you have never created Visualization Extension, it is highly recommended that you first have a look at the following two documents:
+If you have never created Visualization Extension, it is highly recommended that you first have a look at the following document:
 
-- []()
-- []()
+- [Getting started building visualization extensions
+](http://help.qlik.com/en-US/sense-developer/3.0/Subsystems/Extensions/Content/extensions-getting-started.htm)
 
 ## Ingredients of a Custom Component
 
