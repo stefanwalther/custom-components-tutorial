@@ -11,6 +11,9 @@ coverage
 node_modules
 npm-debug.log
 
+# project
+.sense-go.local.yml
+
 # misc
 _gh_pages
 benchmark

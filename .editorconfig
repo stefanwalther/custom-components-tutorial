@@ -13,6 +13,17 @@ insert_final_newline = true
 trim_trailing_whitespace = false
 insert_final_newline = false
 
+[*.{qext}]
+indent_style = space
+charset = utf-8
+indent_size = 2
+trim_trailing_whitespace = false
+insert_final_newline = false
+
+[*.yml]
+indent_style = space
+indent_size = 2
+
 [**/{actual,fixtures,expected}/**]
 trim_trailing_whitespace = false
 insert_final_newline = false

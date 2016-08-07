@@ -1,0 +1,7 @@
+{
+  "name": "ccs-boilerplate",
+  "description": "Boilerplate for a custom component.",
+  "type": "component",
+  "version": "0.1.0",
+  "author": "Stefan Walther"
+}
