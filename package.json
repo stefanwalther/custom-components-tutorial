@@ -33,6 +33,11 @@
   },
   "private": true,
   "verb": {
+    "toc": {
+      "render": true,
+      "method": "preWrite",
+      "maxdepth": 2
+    },
     "layout": "empty",
     "plugins": [
       "gulp-format-md"
