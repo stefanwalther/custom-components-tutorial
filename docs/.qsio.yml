@@ -1,0 +1,20 @@
+sections:
+  pages:
+    - type: page
+      label: "Introduction to the Concept of Custom Components"
+      key: "introduction-concept-custom-components"
+      bullets:
+        - label: ""
+    - type: page
+      label: "Usage and Installation"
+    - type: page
+      label: "The Custom Component API"
+    - type: page
+      label: "Hello World Component"
+    - type: page
+      label: "Using External Resources"
+    - type: page
+      label: "Using the Capability APIs"
+    - type: page
+      label: "Nested components"
+

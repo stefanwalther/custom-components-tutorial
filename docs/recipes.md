@@ -41,7 +41,7 @@ define( [
 
 ## Default Values for Scope Properties
 
-Default values for scope properties should be put into the controller as follows (if they are not intended to be exposed to the property panel):
+Default values for scope properties should be put into the controller as follows (if they are not intended to be consumed from the property panel):
 
 ```js
 define( [], function () {
@@ -55,6 +55,43 @@ define( [], function () {
         },
         compile: function( element, attrs ) {
             attrs.message = (attrs.message) ? attrs.mesage : 'My default message';
+        },
+        link: function ( scope, element, attrs ) {
+
+            function bind () {
+                element.html( scope.message );
+            }
+            
+            // Execute bind() initially ...
+            bind();
+
+            scope.$watch( 'message', function ( newVal, oldVal ) {
+
+                // Bind if there are changes ...
+                if (newVal !== oldVal) {
+                    bind();
+                }
+
+            } );
+        }
+    };
+} );
+```
+
+If you plan to allow Widget creators to bind a specific property to the values of the property panel, you should use `controller` instead to define the default value of your scope's property:
+
+```js
+define( [], function () {
+    'use strict';
+
+    return {
+        name: "ccsHelloWorld",
+        restrict: 'E',
+        scope: {
+            message: '@'
+        },
+        controller: function( scope, element, attrs ) {
+            scope.message = (scope.message) ? scope.mesage : 'My default message';
         },
         link: function ( scope, element, attrs ) {
 
