@@ -424,7 +424,7 @@ The `ccs-nested.qext` file:
 }
 ```
 
-The `ccs-outer.js` file return as array of components, including `ccsNested`and `ccsNestedItem`:
+The `ccs-outer.js` file returns an array of components, including `ccsNested`and `ccsNestedItem`:
 
 ```js
 define( [], function () {
@@ -435,21 +435,13 @@ define( [], function () {
             name: "ccsNested",
             restrict: 'E',
             transclude: true,
-            template: '<div>I am the outer content<div ng-transclude></div>(end of outer content)</div>',
-            controller: function ( /*$scope*/ ) {
-                this.addItem = function ( val ) {
-                    console.log( val );
-                }
-            }
+            template: '<div>I am the outer content<div ng-transclude></div>(end of outer content)</div>'
         },
         {
             name: "ccsNestedItem",
             restrict: 'E',
             require: '^ccsNested',
-            template: '<div style="margin-left:30px;">I am the inner content</div>',
-            link: function ( scope, element, attrs, outerCtrl ) {
-                outerCtrl.addItem( 1 );
-            }
+            template: '<div style="margin-left:30px;">I am the inner content</div>'
         }
     ];
 } );
@@ -458,3 +450,8 @@ define( [], function () {
 Result:
 
 ![](docs/images/hello-world--nested-component-output.png)
+
+It goes far beyond this tutorial to cover how to create nested components in AngularJS, therefore some further readings are provided:
+
+* [Directive to Directive communication with "require"](https://toddmotto.com/directive-to-directive-communication-with-require/)
+* [A Practical Guide to AngularJS Directives (Part Two)](https://www.sitepoint.com/practical-guide-angularjs-directives-part-two/)
