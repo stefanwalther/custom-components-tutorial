@@ -2,19 +2,23 @@ sections:
   pages:
     - type: page
       label: "Introduction to the Concept of Custom Components"
-      key: "introduction-concept-custom-components"
-      bullets:
-        - label: ""
+      key: "10-introduction-concept-custom-components"
     - type: page
       label: "Usage and Installation"
+      key: "20-installation-usage"
     - type: page
       label: "The Custom Component API"
+      key: "30-custom-component-api"
     - type: page
       label: "Hello World Component"
+      key: "40-hello-world"
     - type: page
       label: "Using External Resources"
+      key: "50-using-external-resources"
     - type: page
       label: "Using the Capability APIs"
+      key: "60-using-qliks-capability-apis"
     - type: page
       label: "Nested components"
+      key: "70-nested-components"
 
