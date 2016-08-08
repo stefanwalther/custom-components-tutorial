@@ -1,5 +1,6 @@
 ---
 title: "Introduction to the Concept of Custom Components"
+slug: "10-introduction-concept-custom-components"
 ---
 
 Custom Components are a new concept introduced with version 3.1 of Qlik Sense.

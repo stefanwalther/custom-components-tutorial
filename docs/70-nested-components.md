@@ -1,5 +1,6 @@
 ---
 title: "Nested Components"
+slug: "70-nested-components"
 ---
 
 When developing more powerful and thus complex custom components, you'll probably run into the requirement that you'd like to implement nested components.

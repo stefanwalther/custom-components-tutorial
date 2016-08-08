@@ -1,5 +1,6 @@
 ---
 title: "Installation & Usage of Custom Components"
+slug: "20-installation-usage"
 ---
 
 Before we start developing a new Custom Component, let's have a look how Custom Components are installed and used.

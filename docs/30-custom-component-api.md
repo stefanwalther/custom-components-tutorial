@@ -1,5 +1,6 @@
 ---
 title: "The Custom Component API"
+slug: "30-custom-component-api"
 ---
 
 The Custom Component API follows the same principles as when developing a Visualization Extension.

@@ -1,5 +1,6 @@
 ---
 title: "Using the Capability APIs"
+slug: "60-using-qliks-capability-apis"
 ---
 
 When developing Custom Components you can fully leverage the power of Qlik's Capability APIs.

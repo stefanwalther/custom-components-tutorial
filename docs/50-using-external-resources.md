@@ -1,5 +1,6 @@
 ---
 title: "Using External Resources"
+slug: "50-using-external-resources"
 ---
 
 There soon comes the point where you'd like to include "external" resources such as:

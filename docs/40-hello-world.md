@@ -1,5 +1,6 @@
 ---
 title: "Hello World Component"
+slug: "40-hello-world"
 ---
 
 ## Objective
