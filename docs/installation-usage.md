@@ -26,7 +26,7 @@ Make sure that you reload the Widget editor after you have installed a new Custo
 
 ### Example
 
-- [Download the sample component "ccs-boilerplate"](docs/downloads/ccs-boilerplate.zip) and install it on either Qlik Sense Desktop or Qlik Sense Server.
+- [Download the sample component "ccs-boilerplate"](https://github.com/stefanwalther/custom-components-tutorial/raw/master/docs/downloads/ccs-boilerplate.zip) and install it on either Qlik Sense Desktop or Qlik Sense Server.
 - Start the Widget editor and create a new widget (either in a new or existing Widget library).
 - In *HTML* enter the following code
 
