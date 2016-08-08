@@ -46,11 +46,11 @@ Technically speaking Custom Components are a new extension type, therefore the i
 
 ### Installation using Qlik Sense Desktop
 
-Follow the instructions as published here.
+Follow the instructions [as published here](http://help.qlik.com/en-US/sense-developer/3.0/Subsystems/Extensions/Content/Howtos/deploy-extensions.htm) .
 
 ### Installation using Qlik Sense Server
 
-Follow the instructions as published here.
+Follow the instructions [as published here](http://help.qlik.com/en-US/sense-developer/3.0/Subsystems/Extensions/Content/Howtos/deploy-extensions.htm) .
 
 ## Usage
 
@@ -62,7 +62,7 @@ Make sure that you reload the Widget editor after you have installed a new Custo
 
 ### Example
 
-* [Download the sample component "ccs-boilerplate"](docs/downloads/ccs-boilerplate.zip) and install it on either Qlik Sense Desktop or Qlik Sense Server.
+* [Download the sample component "ccs-boilerplate"](https://github.com/stefanwalther/custom-components-tutorial/raw/master/docs/downloads/ccs-boilerplate.zip) and install it on either Qlik Sense Desktop or Qlik Sense Server.
 * Start the Widget editor and create a new widget (either in a new or existing Widget library).
 * In _HTML_ enter the following code
 
