@@ -10,11 +10,11 @@ Technically speaking Custom Components are a new extension type, therefore the i
 
 ### Installation using Qlik Sense Desktop
 
-Follow the instructions as published here.
+Follow the instructions [as published here](http://help.qlik.com/en-US/sense-developer/3.0/Subsystems/Extensions/Content/Howtos/deploy-extensions.htm) .
 
 ### Installation using Qlik Sense Server
 
-Follow the instructions as published here.
+Follow the instructions [as published here](http://help.qlik.com/en-US/sense-developer/3.0/Subsystems/Extensions/Content/Howtos/deploy-extensions.htm) .
 
 ## Usage
 
