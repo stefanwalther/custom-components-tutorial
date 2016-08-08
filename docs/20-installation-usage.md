@@ -21,7 +21,7 @@ Follow the instructions [as published here](http://help.qlik.com/en-US/sense-dev
 
 As soon as a Custom Component is installed, you can immediately use it in the Widget editor.
 
-{{hint}}
+{{#hint}}
 Make sure that you reload the Widget editor after you have installed a new Custom Component, as Custom Components are loaded at the same time as the Widget editor loads its UI.
 {{/hint}}
 

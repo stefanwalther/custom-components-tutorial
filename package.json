@@ -1,54 +1,59 @@
 {
-    "name": "custom-components-tutorial",
-    "version": "0.1.1",
-    "description": "Getting Started with Custom Components for Qlik Sense.",
-    "keywords": [
-        "components",
-        "custom-components",
-        "qlik",
-        "qlik-sense",
-        "qliksense",
-        "visualization",
-        "widgets"
+  "name": "custom-components-tutorial",
+  "version": "0.1.1",
+  "description": "Getting Started with Custom Components for Qlik Sense.",
+  "keywords": [
+    "components",
+    "custom-components",
+    "qlik",
+    "qlik-sense",
+    "qliksense",
+    "visualization",
+    "widgets"
+  ],
+  "homepage": "https://github.com/stefanwalther/custom-components-tutorial",
+  "bugs": {
+    "url": "https://github.com/stefanwalther/custom-components-tutorial/issues"
+  },
+  "license": "MIT",
+  "author": "Stefan Walther (https://github.com/stefanwalther)",
+  "files": [
+    "src/"
+  ],
+  "repository": "stefanwalther/custom-components-tutorial",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-format-md": "^0.1.10",
+    "mocha": "*",
+    "verb-generate-readme": "^0.1.28"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "private": true,
+  "verb": {
+    "toc": {
+      "render": true,
+      "method": "preWrite",
+      "maxdepth": 2,
+      "footer": false
+    },
+    "layout": "empty",
+    "helpers": [
+      "helper-hybrid-md"
     ],
-    "homepage": "https://github.com/stefanwalther/custom-components-tutorial",
-    "bugs": {
-        "url": "https://github.com/stefanwalther/custom-components-tutorial/issues"
-    },
-    "license": "MIT",
-    "author": "Stefan Walther (https://github.com/stefanwalther)",
-    "files": [
-        "src/"
+    "plugins": [
+      "gulp-format-md"
     ],
-    "repository": "stefanwalther/custom-components-tutorial",
-    "scripts": {},
-    "dependencies": {},
-    "devDependencies": {
-        "gulp-format-md": "^0.1.10",
-        "mocha": "*"
+    "related": {
+      "list": []
     },
-    "engines": {
-        "node": ">=0.12.0"
-    },
-    "private": true,
-    "verb": {
-        "toc": {
-            "render": true,
-            "method": "preWrite",
-            "maxdepth": 2
-        },
-        "layout": "empty",
-        "plugins": [
-            "gulp-format-md"
-        ],
-        "related": {
-            "list": []
-        },
-        "reflinks": [
-            "verb"
-        ],
-        "tasks": [
-            "readme"
-        ]
-    }
+    "reflinks": [
+      "verb"
+    ],
+    "tasks": [
+      "readme"
+    ]
+  }
 }
