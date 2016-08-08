@@ -10,6 +10,4 @@
 - [x] Nested components
 - [x] Using the Capability APIs
 - [x] Using External Resources
-- Don'ts
-- Limitations
-- [ ] Recipes
+- [x] Recipes
