@@ -29,7 +29,7 @@ define( [], function () {
     'use strict';
 
     return {
-        name: "ccsBoilerplate",
+        name: "ccsHelloWorld",
         restrict: 'E',
         link: function ( scope, element, attrs ) {
             element.html( 'Hello world.' );
