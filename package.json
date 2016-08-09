@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/stefanwalther/custom-components-tutorial/issues"
   },
-  "license": "MIT",
+  "license": "CC-BY-4.0",
   "author": "Stefan Walther (https://github.com/stefanwalther)",
   "files": [
     "src/"
