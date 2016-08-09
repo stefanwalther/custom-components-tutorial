@@ -533,7 +533,7 @@ The `ccs-nested.qext` file:
 
 ```js
 {
-  "name": "ccs-outer",
+  "name": "ccs-nested",
   "description": "Example of a nested component.",
   "type": "component",
   "version": "0.1.0",
