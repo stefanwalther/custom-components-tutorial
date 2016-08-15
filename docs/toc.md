@@ -11,3 +11,5 @@
 - [x] Using the Capability APIs
 - [x] Using External Resources
 - [x] Recipes
+
+- [ ] The template concept

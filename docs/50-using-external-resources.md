@@ -1,5 +1,6 @@
 ---
 title: "Using External Resources"
+sub-title: "How to use external resources such as style-sheets, JavScript libraries, fonts, ..."
 slug: "50-using-external-resources"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Using the Capability APIs"
+sub-title: "Custom components can also leverage the power of Qlik's Capability APIs."
 slug: "60-using-qliks-capability-apis"
 ---
 

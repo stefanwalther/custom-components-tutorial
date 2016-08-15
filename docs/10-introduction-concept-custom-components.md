@@ -4,7 +4,7 @@ slug: "10-introduction-concept-custom-components"
 ---
 
 Custom Components are a new concept introduced with version 3.1 of Qlik Sense.
-The main purpose of Custom Components is to empower Widget creators with more available components which can then be used in a declarative way.
+The main purpose of Custom Components is to empower Widget creators even more with several components which can then be used in a declarative way.
 Such a component could be a slider, a date-picker or anything else which encapsulates some common and re-usable functionality.
 
 The approach of developing Custom Components is similar to the Visualization Extension concept, by using Custom Component API you can make use of the full power of web programming capabilities.

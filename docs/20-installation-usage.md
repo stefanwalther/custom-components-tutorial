@@ -1,5 +1,6 @@
 ---
 title: "Installation & Usage of Custom Components"
+sub-title: "How to install custom components in either Qlik Sense Desktop or Qlik Sense Server"
 slug: "20-installation-usage"
 ---
 
@@ -11,11 +12,11 @@ Technically speaking Custom Components are a new extension type, therefore the i
 
 ### Installation using Qlik Sense Desktop
 
-Follow the instructions [as published here](http://help.qlik.com/en-US/sense-developer/3.0/Subsystems/Extensions/Content/Howtos/deploy-extensions.htm) .
+Follow the instructions [as published here](http://help.qlik.com/en-US/sense-developer/3.0/Subsystems/Extensions/Content/Howtos/deploy-extensions.htm).
 
 ### Installation using Qlik Sense Server
 
-Follow the instructions [as published here](http://help.qlik.com/en-US/sense-developer/3.0/Subsystems/Extensions/Content/Howtos/deploy-extensions.htm) .
+Follow the instructions [as published here](http://help.qlik.com/en-US/sense-developer/3.0/Subsystems/Extensions/Content/Howtos/deploy-extensions.htm).
 
 ## Usage
 

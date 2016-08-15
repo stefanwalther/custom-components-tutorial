@@ -1,5 +1,6 @@
 ---
 title: "Nested Components"
+sub-title: "Learn how to create nested component resp. AngularJS directives."
 slug: "90-nested-components"
 ---
 

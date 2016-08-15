@@ -1,5 +1,5 @@
 ---
 title: "An Alert Component"
-slug: "80-alert-component"
+slug: "90-alert-component"
 ---
 

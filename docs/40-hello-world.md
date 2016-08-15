@@ -1,5 +1,6 @@
 ---
 title: "Hello World Component"
+sub-title: "Let's create a first custom component to understand some of the basic concepts."
 slug: "40-hello-world"
 ---
 

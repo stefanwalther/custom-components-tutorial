@@ -1,5 +1,7 @@
 ---
 title: "Binding components to the property panel"
+sub-title: "Learn how to bind custom components to the property panel in Qlik Sense."
+slug: "80-binding-components"
 ---
 
 > The goal is to create a custom component for which its properties can be binded to items in the property panel, thus the widget becomes fully configurable by the end user using a widget.
