@@ -70,8 +70,9 @@ define( [], function () {
 } );
 ```
 
-**Hint:**
+{{#hint}}
 Technically speaking it would work also to register your directive with `qvangular.directive( ...` but you should never do so, because the concept of Custom Components could be extended in the future far beyond just AngularJS directives.
+{{/hint}}
 
 #### Naming of the Component's Name (camelCase)
 The property `name` should match what you have defined in your `.qext` file.

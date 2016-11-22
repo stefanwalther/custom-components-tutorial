@@ -38,11 +38,11 @@ Make sure that you reload the Widget editor after you have installed a new Custo
 
 - After having selected any app, you should see the following in the *Preview*:
 
-![](./docs/images/installation-usage--preview.png)
+![](images/installation-usage--preview.png)
 
 - Furthermore if you open the developer console of your browser you should see the following:
 
-![](./docs/images/installation-usage--console.png)
+![](images/installation-usage--console.png)
 
 
 OK; perfect, a very basic Custom Component now works, let's have a look in the next chapter to this was done.

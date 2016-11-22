@@ -44,7 +44,7 @@ Using `ccs-hello-world`:
 
 After having imported `ccs-hello-world` we can use it in the Widget editor:
 
-![](docs/images/hello-world--usage.png)
+![](images/hello-world--usage.png)
 
 Not really exciting, but let's review some of the basic concepts of this very simple example:
 
@@ -63,7 +63,7 @@ Let's go one step further and allow the Widget creator to customize the "Hello-W
 
 ## Customize the Hello-World Message
 
-{{hint}}
+{{#hint}}
 Following the power of AngularJS' directives there are several ways to achieve the same result. This example just shows one of the possible solutions.
 But this example is following some best practices when working with Custom Components & Widgets.
 {{/hint}}
@@ -78,7 +78,7 @@ We'd like the user to allow defining the message within a Widget:
 
 which should result into:
 
-![Custom Hello-World message](docs/images/hello-world--custom-output.png)
+![Custom Hello-World message](images/hello-world--custom-output.png)
 
 To achieve the desired result, let's add an one-way binded attribute `message` to the scope of our component:
 
@@ -139,7 +139,7 @@ Considering this simplification let's change the component as follows:
 
 Which would result into:
 
-![Custom Hello-World message](docs/images/hello-world--custom-output.png)
+![Custom Hello-World message](images/hello-world--custom-output.png)
 
 ### Creating a Fully Customizable Widget
 
@@ -149,11 +149,11 @@ So let's transfer all the power to the Widget creator and let's create a fully c
 
 First let's create a property named `settings.message` using the Property Panel Builder:
 
-![Create a property in the Property Panel Builder](docs/images/hello-world--create-prop-message.gif)
+![Create a property in the Property Panel Builder](images/hello-world--create-prop-message.gif)
 
 The next step would be to bind the newly property `settings.message` in the Widget editor to the `ccs-hello-world` component:
  
-![Bind property](docs/images/hello-world--bind-prop.gif)
+![Bind property](images/hello-world--bind-prop.gif)
  
 Which results into:
 

@@ -91,7 +91,7 @@ The `template.ng.html` file:
 </div>
 ```
 
-{{hint}}
+{{#hint}}
 AngularJS allows you to define the template for a directive either inline as string, by passing an object (which is used in the above example), or by pointing to a URL using the `templateUrl` property.  
 See more in the [AngularJS Directives](https://docs.angularjs.org/guide/directive) documentation.
 {{/hint}}

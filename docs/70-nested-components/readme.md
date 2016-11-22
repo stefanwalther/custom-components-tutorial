@@ -1,24 +1,10 @@
 ---
 title: "Nested Components"
 sub-title: "Learn how to create nested component resp. AngularJS directives."
-slug: "90-nested-components"
+slug: "70-nested-components"
 ---
 
 When developing more powerful and thus complex custom components, you'll probably run into the requirement that you'd like to implement nested components.
-
-<!--
-Let's take the following example of AngularJS directives:
-
-```js
-
-```
-
-Which would then be used as follows:
-
-```html
-
-```
--->
 
 As described above, the Custom Component API returns the signature of **one** AngularJS directive, so how would you return a set of directives.
 The answer is simple: Just return an array of object instead of a single one:
@@ -89,7 +75,7 @@ define( [], function () {
 
 Result:
 
-![](docs/images/hello-world--nested-component-output.png)
+![](images/hello-world--nested-component-output.png)
 
 
 It goes far beyond this tutorial to cover how to create nested components in AngularJS, therefore some further readings are provided:
