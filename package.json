@@ -31,7 +31,7 @@
   "engines": {
     "node": ">=0.12.0"
   },
-  "private": true,
+  "private": false,
   "verb": {
     "toc": {
       "render": true,
