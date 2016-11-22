@@ -25,7 +25,7 @@
 # Introduction to the Concept of Custom Components
 
 Custom Components are a new concept introduced with version 3.1 of Qlik Sense.
-The main purpose of Custom Components is to empower Widget creators with more available components which can then be used in a declarative way.
+The main purpose of Custom Components is to empower Widget creators even more with several components which can then be used in a declarative way.
 Such a component could be a slider, a date-picker or anything else which encapsulates some common and re-usable functionality.
 
 The approach of developing Custom Components is similar to the Visualization Extension concept, by using Custom Component API you can make use of the full power of web programming capabilities.
@@ -44,11 +44,11 @@ Technically speaking Custom Components are a new extension type, therefore the i
 
 ### Installation using Qlik Sense Desktop
 
-Follow the instructions [as published here](http://help.qlik.com/en-US/sense-developer/3.0/Subsystems/Extensions/Content/Howtos/deploy-extensions.htm) .
+Follow the instructions [as published here](http://help.qlik.com/en-US/sense-developer/3.0/Subsystems/Extensions/Content/Howtos/deploy-extensions.htm).
 
 ### Installation using Qlik Sense Server
 
-Follow the instructions [as published here](http://help.qlik.com/en-US/sense-developer/3.0/Subsystems/Extensions/Content/Howtos/deploy-extensions.htm) .
+Follow the instructions [as published here](http://help.qlik.com/en-US/sense-developer/3.0/Subsystems/Extensions/Content/Howtos/deploy-extensions.htm).
 
 ## Usage
 
@@ -116,13 +116,13 @@ The following properties are mandatory for a valid definition file:
 * **`name`** - The name of the custom component.
 * **`description`** - Any meaningful description for your component. Not used anywhere in the product right now, but important for future versions of Qlik Sense.
 * **`type`** - Type of the extension, should be always `component` for Custom Components.
-* **`version`** - Version of your Custom Component, uses the concept of [Semantic Versioning](http://semver.org/) .
+* **`version`** - Version of your custom component, uses the concept of [Semantic Versioning](http://semver.org/) .
 * **`author`** - Some information about the author.
 
-{{hint}}
+**Note:**
+
 Further properties can be added to the `.qext` file and it is highly encouraged to do so. Additional properties provide very helpful information
 Follow the standards of [npm's package.json definition](https://docs.npmjs.com/files/package.json).
-{{/hint}}
 
 ### The Main JavaScript File
 
@@ -146,11 +146,11 @@ define( [], function () {
 } );
 ```
 
-{{hint}}
-Technically speaking it would work also to register your directive with `qvangular.directive( ...` but you should never do so, because the concept of Custom Components could be extended in the future far beyond just AngularJS directives.
-{{/hint}}
+**Hint:**
 
-#### Naming of the Component's name (camelCase)
+Technically speaking it would work also to register your directive with `qvangular.directive( ...` but you should never do so, because the concept of Custom Components could be extended in the future far beyond just AngularJS directives.
+
+#### Naming of the Component's Name (camelCase)
 
 The property `name` should match what you have defined in your `.qext` file.
 But if you compare the `name` property of the `.qext` file with the `name` property of the JavaScript file, you'll see a difference:
@@ -162,11 +162,12 @@ We have already seen in the previous chapter that one would use the Custom Compo
 The reason for the difference between the AngularJS directive signature and the definition file is that AngularJS follows the principle of [camelCase](http://en.wikipedia.org/wiki/CamelCase) .
 
 > Angular normalizes an element's tag and attribute name to determine which elements match which directives. We typically refer to directives by their case-sensitive camelCase normalized name (e.g. ngModel). However, since HTML is case-insensitive, we refer to directives in the DOM by lower-case forms, typically using dash-delimited attributes on DOM elements (e.g. ng-model).
-(taken from the  [AngularJS documentation: directives](https://docs.angularjs.org/guide/directive))
+
+_(taken from the  [AngularJS documentation: "Directives"](https://docs.angularjs.org/guide/directive))_
 
 ### Prefixes for your Custom Component
 
-The given example of `ccs-boilerplate` uses the prefix `ccs` (which stands for **c**ustom **c**omponents **c**ample).
+The given example of `ccs-boilerplate` uses the prefix `ccs` (which stands for **c**ustom **c**omponents **s**ample).
 Use prefixes of your Custom Components to prevent conflict with components created by other developers.
 
 You should not used the prefix `qw`, which is reserved for Custom Components provided by Qlik, such as `qw-sys-info`.
