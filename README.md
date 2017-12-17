@@ -2,4 +2,4 @@
 
 > Getting Started with Custom Components for Qlik Sense.
 
-Source repository for the [http://qliksite.io/tutorial/qliksense-custom-components]("Qlik Sense Custom Components Tutorial")
+Source repository for the ["Qlik Sense Custom Components Tutorial"](http://qliksite.io/tutorials/qliksense-custom-components/)
