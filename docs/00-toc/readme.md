@@ -5,6 +5,6 @@ pageOpts:
   isDisqus: false
   isToc: true
 ghOpts:
-    isEditButton: false
-    isStarButton: false
+  isEditButton: false
+  isStarButton: false
 ---

@@ -1,11 +1,11 @@
 sections:
-  - type: section
+  - type: "section"
     label: "Table of Contents"
     pages:
       - label: "Contents of this Tutorial"
         key: "00-toc/"
-  - type: section
-    label: Getting started
+  - type: "section"
+    label: "Getting started"
     pages:
       - type: page
         label: "Introduction to the Concept of Custom Components"
@@ -28,4 +28,3 @@ sections:
       - type: page
         label: "Nested components"
         key: "70-nested-components/"
-

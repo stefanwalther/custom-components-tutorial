@@ -1,6 +1,6 @@
 ---
 title: "Recipes"
-slug "200-recipies"
+slug: "200-recipies"
 ---
 
 Some recipes when working with the Custom Component concept:
