@@ -1,6 +1,7 @@
 {
   "name": "custom-components-tutorial",
-  "version": "0.2.1",
+  "version": "0.2.2",
+  "private": false,
   "description": "Getting Started with Custom Components for Qlik Sense.",
   "keywords": [
     "components",
@@ -18,7 +19,8 @@
   "license": "CC-BY-4.0",
   "author": "Stefan Walther (https://github.com/stefanwalther)",
   "files": [
-    "src/"
+    "src/",
+    "docs/"
   ],
   "repository": "stefanwalther/custom-components-tutorial",
   "scripts": {},
@@ -31,7 +33,6 @@
   "engines": {
     "node": ">=0.12.0"
   },
-  "private": false,
   "verb": {
     "toc": {
       "render": true,
