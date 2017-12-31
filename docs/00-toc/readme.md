@@ -7,4 +7,5 @@ pageOpts:
 ghOpts:
   isEditButton: false
   isStarButton: false
+slug: "00-toc"
 ---

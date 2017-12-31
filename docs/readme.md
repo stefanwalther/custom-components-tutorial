@@ -11,4 +11,5 @@ ghOpts:
 pageOpts:
   isToc: false
   isDisqus: false
+slug: "/"
 ---

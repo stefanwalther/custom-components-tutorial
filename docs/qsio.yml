@@ -2,7 +2,8 @@ sections:
   - type: "section"
     label: "Table of Contents"
     pages:
-      - label: "Contents of this Tutorial"
+      - type: page
+        label: "Contents of this Tutorial"
         key: "00-toc/"
   - type: "section"
     label: "Getting started"
